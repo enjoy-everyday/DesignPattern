@@ -1,0 +1,21 @@
+package com.sise.wxy;
+
+public class FirstBuilder extends Builder {
+	
+	private Menu menu = new Menu();
+	
+	public void BuildFood() {
+		menu.setFood("∫∫±§");
+	}
+	
+	public void BuildDrink() {
+		menu.setDrink("ø…¿÷");
+	}
+	
+	public void Give() {
+		System.out.println("*******Ã◊≤Õ“ª*******");
+		System.out.println(menu.getFood());
+		System.out.println(menu.getDrink());
+	}
+	
+}
